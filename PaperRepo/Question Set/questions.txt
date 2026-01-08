@@ -1,0 +1,55 @@
+--   Remembering
+Which module shows the specific information for a movie
+Which view shows a list of recommended movies
+Which presenter shows currently playing movies in cinema?
+Which routers are most likely to be pushing the view in, in the 'MovieDetails.swift'?
+Which interactor fetches the list of recommended movies
+Which entity shows the company that made a movie?
+
+--   Understanding
+What does the module 'MovieHomeScreen' appear to be responsible for?
+What is the view MovieDetailsView.swift probably displaying?
+What is the purpose of the 'MovieDetailsViewHeader' file in the context of the 'MovieDetailsView'?
+What data seems to be parsed at 'MovieDetailsPresenter.swift'?
+What is the 'MovieHomeScreenRouter.swift' responsible for?
+What is the business logic of the interactors in the 'MovieHomeScreen' module?
+What are the entities in the MovieDetailsScreen module, and what they represent
+What the 'FetchAllMoviesDataProcol.swift' protocol responsibilities are?
+
+--   Applying
+Where a search feature would be implemented?
+Given the tap of a button that favorites a movie, trace the flow of data through the Viper components of the project
+Given the tap of a button that displays the 'MovieDetailsView.swift', trace the flow of data through the Viper components of the project
+Given a new recommendation feed (view) requirement, there will be a need to change the UI of the recommendations view and add a new API call to show all-time favorites. Which files in the project tree would you need to modify and add?
+How would you modify the module 'MovieHomeScreen' to display a new screen (e.g. favorites)?
+How would you modify the module 'MovieDetailsScreen' to show additional information about the movie (e.g. main actors)? A new API call must be done in this scenario.
+How would you modify the module 'MovieDetailsScreen' to show additional information about the movie (e.g. main actors)? All information is already stored in local storage, and the Movie Entity was updated already to have this data. You need to know where it is to retrieve it.
+
+--   Analyzing
+
+How does the architecture of the application handle navigation between screens?
+Examine the project structure and identify potential areas where the VIPER architecture might not be strictly followed. What could be the reasons for these deviations?
+Examine the data flow between components. Are there any bottlenecks or inefficiencies?
+Compare and contrast the implementations of different VIPER modules in the project. What patterns do you observe?
+Compare and contrast the implementations of different VIPER modules in the project. What inconsistencies do you observe?
+
+--   Evaluating
+
+What are the advantages and disadvantages of the current VIPER implementation?
+Evaluate the effectiveness of the Viper architecture in this project. Does it promote code reusability, maintainability, testability, and scalability? Provide evidence from the project structure to support your evaluation.
+Identify potential areas for improvement in the project structure or Viper implementation.
+Assess the impact (both positive and negative) of using singletons in the interactors that make API calls on the overall performance and maintainability of the application.
+Assess the impact (both positive and negative) of using protocols over simple generic types on the overall performance and maintainability of the application
+Critique the naming conventions used for VIPER components in this project. How well do they align with best practices, and what improvements could be made?
+Evaluate the separation of concerns in the existing VIPER modules. Are there any components that might be taking on too much or too little responsibility?
+Are there any areas where the VIPER architecture of the application could be improved or refactored?
+
+--   Creating
+
+Can you propose a new module or feature for the application that would fit within the VIPER architecture, and describe how it would be implemented?
+Design and develop a new Viper module for user authentication (pick an authenticator). Document its interactions with existing components, and show one of these interactions as code.
+Given the current VIPER modules, how would you integrate a third-party analytics library into the application?
+How would you modify the VIPER architecture of the application to support offline functionality or caching?
+How could you refactor the VIPER architecture of the application to better support internationalization or localization?
+Propose a refactoring strategy to improve the overall VIPER architecture in this project, considering factors like testability and code reuse.
+Develop a set of coding guidelines specific to VIPER implementation for this project, addressing any inconsistencies or issues you've identified in the current structure.

@@ -1,0 +1,141 @@
+ViperMoviesssDB
+├── LICENSE
+├── README.md
+└── ViperMoviesssDB
+    ├── ViperMoviesssDB
+    │   ├── AppDelegate.swift
+    │   ├── Base.lproj
+    │   │   ├── LaunchScreen.storyboard
+    │   │   └── Main.storyboard
+    │   ├── DataManager
+    │   │   ├── GlobalFetchDataEntities
+    │   │   │   ├── OriginalLanguage.swift
+    │   │   │   └── Result.swift
+    │   │   ├── InternetHandler
+    │   │   │   ├── Iteractor
+    │   │   │   │   └── InternetHandler.swift
+    │   │   │   └── Protocol
+    │   │   │       └── InternetConectionProtocol.swift
+    │   │   └── protocols
+    │   │       └── FetchImageDataProtocol.swift
+    │   ├── GlobalMovie.swift
+    │   ├── Info.plist
+    │   ├── MovieDetailsScreen
+    │   │   ├── MovieDetails.storyboard
+    │   │   ├── entity
+    │   │   │   ├── Album.swift
+    │   │   │   ├── Genre.swift
+    │   │   │   ├── JSONNull.swift
+    │   │   │   ├── Movie.swift
+    │   │   │   ├── ProductionCompany.swift
+    │   │   │   ├── ProductionCountry.swift
+    │   │   │   └── SpokenLanguage.swift
+    │   │   ├── interactor
+    │   │   │   ├── FetchMovieData.swift
+    │   │   │   └── MovieDetailsInteractor.swift
+    │   │   ├── presenter
+    │   │   │   └── MovieDetailsPresenter.swift
+    │   │   ├── procols
+    │   │   │   ├── FetchMovieDataProcol.swift
+    │   │   │   └── MovieDetailsContracts.swift
+    │   │   ├── router
+    │   │   │   └── MovieDetailsRouter.swift
+    │   │   └── view
+    │   │       ├── MovieDetailsView.swift
+    │   │       ├── MovieDetailsViewHeader.swift
+    │   │       ├── MovieOverviewTableViewCell.swift
+    │   │       ├── OverviewViewHeader.swift
+    │   │       └── xibs
+    │   │           ├── MovieDetailsHeader.xib
+    │   │           ├── OverviewHeader.xib
+    │   │           └── VotesView.xib
+    │   ├── MovieHomeScreen
+    │   │   ├── entity
+    │   │   │   ├── AllMovies
+    │   │   │   │   └── PopularMoviesResult.swift
+    │   │   │   ├── Movie.swift
+    │   │   │   ├── NowPlayingMoviesResult.swift
+    │   │   │   └── PopularMovies
+    │   │   │       ├── AllResults.swift
+    │   │   │       └── Dates.swift
+    │   │   ├── interactor
+    │   │   │   ├── FetchFirstPageMovieData.swift
+    │   │   │   ├── FetchPopularMovieData.swift
+    │   │   │   └── MovieHomeScreenInteractor.swift
+    │   │   ├── presenter
+    │   │   │   └── MovieHomeScreenPresenter.swift
+    │   │   ├── protocols
+    │   │   │   ├── FetchAllMoviesDataProcol.swift
+    │   │   │   ├── FetchPopularMovieDataProtocol.swift
+    │   │   │   └── MovieHomeScreenContracts.swift
+    │   │   ├── router
+    │   │   │   └── MovieHomeScreenRouter.swift
+    │   │   └── view
+    │   │       ├── MovieHomeScreenView.swift
+    │   │       ├── nowPlaying
+    │   │       │   ├── NowPlayingCollectionViewCell.swift
+    │   │       │   ├── NowPlayingTableViewCell.swift
+    │   │       │   └── NowPlayingViewHeader.swift
+    │   │       ├── popularMovies
+    │   │       │   └── PopularMoviesTableViewCell.swift
+    │   │       └── xibs
+    │   │           ├── NowPlayingCollectionViewCell.xib
+    │   │           ├── NowPlayingHeader.xib
+    │   │           ├── NowPlayingTableViewCell.xib
+    │   │           └── PopularMoviesTableViewCell.xib
+    │   ├── NowPlayingScreen
+    │   │   ├── NowPlaying.storyboard
+    │   │   ├── NowPlayingContracts.swift
+    │   │   ├── NowPlayingEntity.swift
+    │   │   ├── NowPlayingInteractor.swift
+    │   │   ├── NowPlayingPresenter.swift
+    │   │   ├── NowPlayingRouter.swift
+    │   │   └── NowPlayingView.swift
+    │   ├── Resources
+    │   │   └── Assets.xcassets
+    │   │       ├── AppIcon.appiconset
+    │   │       │   └── Contents.json
+    │   │       ├── Contents.json
+    │   │       ├── Star Icon.imageset
+    │   │       │   ├── Contents.json
+    │   │       │   ├── Star Icon.png
+    │   │       │   ├── Star Icon@2x.png
+    │   │       │   └── Star Icon@3x.png
+    │   │       ├── keym7MPn1icW1wWfzMnW3HeuzWU-1.imageset
+    │   │       │   ├── Contents.json
+    │   │       │   └── keym7MPn1icW1wWfzMnW3HeuzWU-1.png
+    │   │       ├── keym7MPn1icW1wWfzMnW3HeuzWU.imageset
+    │   │       │   ├── Contents.json
+    │   │       │   └── keym7MPn1icW1wWfzMnW3HeuzWU.png
+    │   │       └── rjbNpRMoVvqHmhmksbokcyCr7wn.imageset
+    │   │           ├── Contents.json
+    │   │           ├── rjbNpRMoVvqHmhmksbokcyCr7wn.png
+    │   │           ├── rjbNpRMoVvqHmhmksbokcyCr7wn@2x.png
+    │   │           └── rjbNpRMoVvqHmhmksbokcyCr7wn@3x.png
+    │   ├── ViewController.swift
+    │   └── ViperMoviesssDB.xcdatamodeld
+    │       └── ViperMoviesssDB.xcdatamodel
+    │           └── contents
+    ├── ViperMoviesssDB.xcodeproj
+    │   ├── project.pbxproj
+    │   ├── project.xcworkspace
+    │   │   ├── contents.xcworkspacedata
+    │   │   ├── xcshareddata
+    │   │   │   ├── IDEWorkspaceChecks.plist
+    │   │   │   └── swiftpm
+    │   │   │       └── configuration
+    │   │   └── xcuserdata
+    │   │       └── luizpedrofranciscattoguerra.xcuserdatad
+    │   │           └── UserInterfaceState.xcuserstate
+    │   └── xcuserdata
+    │       └── luizpedrofranciscattoguerra.xcuserdatad
+    │           ├── xcdebugger
+    │           │   └── Breakpoints_v2.xcbkptlist
+    │           └── xcschemes
+    │               └── xcschememanagement.plist
+    ├── ViperMoviesssDBTests
+    │   ├── Info.plist
+    │   └── ViperMoviesssDBTests.swift
+    └── ViperMoviesssDBUITests
+        ├── Info.plist
+        └── ViperMoviesssDBUITests.swift
